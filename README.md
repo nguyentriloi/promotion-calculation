@@ -321,5 +321,13 @@ Final price:      180
   "finalPrice": 180
 }
 ```
+---
 
+# TODO
+
+* Design **Coupon Hub** for centralized coupon management and validation.
+* Implement **coupon caching** (e.g. using Redis) to reduce database lookups during checkout.
+* Ensure **data consistency when applying coupons** (prevent double redemption / race conditions).
+* Enhance **Buy X Get Y promotion** to support multiple reward cycles when purchased quantity exceeds `X + Y`.
+* Integration test
 ---

@@ -174,11 +174,11 @@ Example:
 
 ```
 {
-  "id": "VIP10",
-  "priority": 10,
+  "id": "VIP5",
+  "priority": 5,
   "conditions": [
     {
-      "field": "account.tier",
+      "field": "account.type",
       "operator": "EQUAL",
       "value": "VIP"
     }
@@ -197,7 +197,7 @@ Example:
     {
       "field": "items.sku",
       "operator": "CONTAINS",
-      "value": "NIKE01"
+      "value": "COCA"
     },
     {
       "field": "items.quantity",
@@ -208,7 +208,7 @@ Example:
   "actions": [
     {
       "type": "ADD_FREE_ITEM",
-      "sku": "NIKE01",
+      "sku": "COCA",
       "value": 1
     }
   ]
@@ -257,7 +257,7 @@ POST /api/v1/orders/calculation
   "couponCode": "SUMMER10",
   "items": [
     {
-      "sku": "NIKE01",
+      "sku": "COCA",
       "quantity": 2,
       "price": 100
     }

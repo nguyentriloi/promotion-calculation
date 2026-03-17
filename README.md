@@ -1,7 +1,3 @@
-Dưới đây là **phiên bản README đã rewrite gọn hơn + tính lại kết quả response đúng theo rules**.
-
----
-
 # Promotion Engine (Rule-Based) – Clean Architecture
 
 This project demonstrates a **rule-based promotion engine for e-commerce order calculation**, implemented using **Clean Architecture**.
